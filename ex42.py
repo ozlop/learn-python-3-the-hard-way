@@ -13,14 +13,14 @@ class Dog(Animal):
 class Cat(Animal):
 
     def __init__(self, name):
-        ##
+        ## from self, get name attribute and set it to self
         self.name = name
 
 ## Person is-a object
 class Person(object):
 
     def __init__(self, name):
-        ## Person has-a name
+        ## from self, get name attribute and set it to self
         self.name = name
 
         ## Person has-a pet of some kind
