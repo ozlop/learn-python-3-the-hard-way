@@ -1,5 +1,5 @@
 ## Animal is-a object
-class Animal(object)
+class Animal(object):
     pass
 
 ## Dog is-a Animal
