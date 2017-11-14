@@ -1,10 +1,10 @@
 try:
     from setuptools import setup
 except ImportError:
-    from distutils.core import setuptools
+    from distutils.core import setup
 
 config = {
-    'desciption': 'My Project',
+    'description': 'My Project',
     'author': 'Ozzy Lopez',
     'url': 'URL to get it at.',
     'download_url': 'Where to download it.',
@@ -14,6 +14,6 @@ config = {
     'packages': ['NAME'],
     'scripts': [],
     'name': 'projectname'
-    }
+}
 
-    setup(**config)
+setup(**config)
